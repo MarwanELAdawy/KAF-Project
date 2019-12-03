@@ -1,0 +1,14 @@
+#hello{
+    display: block;  
+}
+#hello2{
+    display: none;  
+}
+@media only screen and (max-width: 900px) {
+    #hello{
+        display: none;  
+    }
+    #hello2{
+        display:block;  
+    }
+}

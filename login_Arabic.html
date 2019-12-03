@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+         <link rel="stylesheet" href="../fontawesome-free-5.10.0-web/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+    </head>
+<body>
+    <div class="container">
+    <div class="row pos">
+        <div class="col-md-4" style="width=30px"></div>
+        <div class="col-md-3 lo" style="width=300px" >
+            <input type="button"  id="bt-login"    value="LOGIN" class="bt" style=" background-color: rgb(234, 191, 13); " onclick="log()" >
+             <input type="button"  id="bt-signin"  value="SIGNIN" class="bt bt1" style="color: rgba(193, 0, 0, 0.9)" onclick="sign()">
+            <br><br><br>
+              <img src="../Group1%20213@2x.png" height=200px; width="250px" ><br>
+         
+         
+        
+            <form name="" method="POST" action="" id="login">
+                
+            <input type="text" placeholder=" Username" class="tex t1">
+                 <i class="far fa-user ic1 ic"></i>
+            <input type="text" placeholder="Password" class="tex t2">
+                 <i class="fas fa-lock ic2 ic" style="top:80px"></i>
+             <label > <a href="#" class="for">Forgot tPassword?</a> </label>
+            <input type="submit" value="Login" class="bt bt-lo" style="">
+            </form>
+        
+     
+       
+         <form name="" method="POST" action="" id="signin">
+    
+           <input type="text" placeholder=" Fullname" class="tex t3" style="height:30px; font-size: 13px;">
+              <i class="far fa-user ic1 ic"></i>
+            <input type="text" placeholder="Username" class="tex t4" style="height:30px; font-size: 13px;">
+             <i class="far fa-user ic2 ic"></i> 
+            <input type="text" placeholder=" E-mail" class="tex t5"  style="height:30px; font-size: 13px;">
+             <i class="far fa-envelope ic3 ic"></i>
+            <input type="text" placeholder="Password" class="tex t6"  style="height:30px; font-size: 13px;">
+             <i class="fas fa-lock ic4 ic"></i>
+            <input type="text" placeholder=" Phone" class="tex t7"  style="height:30px; font-size: 13px;">
+             <i class="fas fa-phone ic5 ic"></i>
+             <input type="submit" value=" Signin" class="bt bt-lo" >
+            
+         </form>
+               </div>  
+          
+         <div class="col-md-1 x">
+          <label> <a id="bt_exit" href="#" style=" text-decoration:none; text-decoration-color: none; color: rgba(10,10,10,.3);">X</a> </label>
+        </div>
+            
+    </div>
+        <div class="col-md-4" style="width=200px"></div>
+        </div>
+      
+    <script>
+    var lo=document.getElementById("login"),
+    reg=document.getElementById("signin"),
+    bt_lo=document.getElementById("bt-login"),
+    bt_reg=document.getElementById("bt-signin");
+
+function log(){
+if(bt_lo.onclick){
+   bt_reg.style.backgroundColor="rgb(234, 191, 13)";
+    bt_reg.style.color="black"
+    bt_lo.style.backgroundColor="white";
+    bt_lo.style.color="rgba(193, 0, 0, 0.9)";
+    lo.style.visibility="visible";
+    reg.style.visibility="hidden";
+}
+}
+    
+function sign(){
+if(bt_reg.onclick){
+   bt_lo.style.backgroundColor="rgb(234, 191, 13)";
+    bt_lo.style.color="black";
+    bt_reg.style.backgroundColor="white";
+    bt_reg.style.color="rgba(193, 0, 0, 0.9)";
+    reg.style.visibility="visible";
+    lo.style.visibility="hidden";
+}
+}
+        
+        
+    </script>
+</body>
+</html>

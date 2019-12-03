@@ -1,0 +1,130 @@
+@font-face {
+    font-family: NeoSansArabic;
+    src: url(assets/fonts/neo-sans-arabic-regular/neo-sans-arabic-regular.ttf);
+}
+*{
+    font-family: 'NeoSansArabic';
+    cursor:url('../img/cursor.png'), default;
+}
+.des{
+    height: 155px;
+    border-radius: 10px;
+    margin-top: -5px;
+    border:solid;
+    border-color:#f1f1f1;
+    border-width: 2px;
+    box-shadow: 0 20px 10px -10px #e5e5e5;
+    position: relative;
+    z-index: 200;
+    background-color: #ffffff;
+}
+.des h4{
+    line-height: 0;
+    color:#233142;
+    font-weight: bold;
+    
+}
+.donate{
+    width: 200px;
+    height: 105px;
+    background-color: #154d6c;
+    float:right;
+    border-radius: 10px;
+    z-index: 100;
+    margin-right: -50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.benefactor{
+    width: 200px;
+    height: 105px;
+    background-color: #e45b5b;
+    float: left;;
+    border-radius: 10px;
+    z-index: 100;
+    margin-left: -50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#sec4 .donate{
+    width: 200px;
+    height: 105px;
+    background-color: #154d6c;
+    border-radius: 10px;
+    z-index: 100;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#sec4 .benefactor{
+    width: 200px;
+    height: 105px;
+    background-color: #e45b5b;
+    border-radius: 10px;
+    z-index: 100;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#sec3 h3 {
+    color: #233142;
+    font-weight: bold;
+    font-family: 'NeoSansArabic';
+    font-size: 22px;
+}
+.btn2{
+    background-color:#233142 ;
+    border-color:#233142;
+    padding: 7px 30px 7px 30px;
+    border-radius: 50px;
+    color:white;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 20px;
+ }
+ .donate img{
+    width: 70px;
+     height: 60px;
+      margin-top: 10px;
+       margin-left: 40px;
+ }
+ .donate p{
+    font-size: 12px;
+     color:white;
+      margin-left: 35px;
+       margin-top: 10px;
+ }
+ .donate {
+    position: relative;
+ }
+ #sec3{
+     display:block;   
+}
+#sec4{
+    display:none;   
+}
+#mopy{
+     display: block;  
+}
+@media only screen and (min-width: 900px) {
+    .form-control{
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    h2,p{
+        text-align: center;
+    }
+    .donate{
+        position: relative;
+        right: 300px;
+        top:200px;
+    }
+    #mopy{
+        display: none;  
+   }
+    #sec4{
+        display:block;   
+    }
+}
+

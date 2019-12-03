@@ -1,0 +1,141 @@
+.bg-dark{
+    background-color:black !important;
+}
+.bg-kaf{
+  background-color: #233142;
+}
+.btn-primary{
+    background-color: blue !important;
+}
+.btn-danger{
+  background-color: #e60000
+  !important;
+}
+
+.btn-dark{
+  background-color: black !important;
+}
+.font-bangers{
+  font-weight: bold;
+
+    
+}
+.list-group-item:hover{
+ background-color: blue;
+ color: white;
+}
+label{
+  font-weight: bold;
+
+
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+form input[type="text"] {
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #bdbdbd !important;
+  outline: 0 !important;
+  height: 2.1rem !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+
+}
+.bg-success {
+    background-color: rgb(0, 153, 0) !important;
+  }
+  .bg-sky {
+    background-color: darkcyan !important;
+  }
+  .btn-warning {
+    background-color: orange !important;
+  }
+  .text-danger {
+    color: red !important;
+  }
+  .btn-primary {
+    background-color: blue !important;
+  }
+  .font-it {
+    font-weight: bold;
+
+  }
+  .bg-primary {
+    background-color: blue !important;
+  }
+  .bg-violet {
+    background-color: blueviolet !important;
+  }
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+  .btn{
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  
+  #sidebar-wrapper {
+    letter-spacing: 0.01em;
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+    
+
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+      font-weight: bold;
+
+    padding: 0.875rem 1.25rem;
+    font-size: 1.3rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    font-weight: bold;
+     
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    font-weight: bold;
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    font-weight: bold;
+
+    
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+    
+        margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+    
+        min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+    
+        margin-left: -15rem;
+    }
+  }
+  

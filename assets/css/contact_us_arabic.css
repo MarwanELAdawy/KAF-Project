@@ -1,0 +1,63 @@
+@font-face {
+    font-family: NeoSansArabic;
+    src: url(assets/fonts/neo-sans-arabic-regular/neo-sans-arabic-regular.ttf);
+}
+*{
+    font-family: 'NeoSansArabic';
+    cursor:url('../img/cursor.png'), default;
+}
+.form-control{
+    border-radius: 5px;
+    width: 93%;
+    height: 35px;
+    background-color: #edf7ff;
+    border-color:#edf7ff;
+    font-size: 13px;
+    color: #233142;
+    margin-bottom: 20px;
+}
+.btn{
+   background-color: #facf5a;
+   border-color:#facf5a;
+   padding: 7px 30px 7px 30px;
+   border-radius: 50px;
+   color:#233142;
+   font-weight: bold;
+   float: right;
+}
+::placeholder {
+    color: #54617d;
+    opacity: 1; /* Firefox */
+    text-align: right;
+  }
+  .ano{
+    background-image: url(../img/parts/cont.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+      height: 550px;
+      margin-top: 130px;
+      display: block;
+}
+@media only screen and (min-width: 900px) {
+    .form-control{
+        margin-left: -20px;
+    }
+    #sec3 h2,p{
+        text-align: right;
+        margin-right: 90px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #sec3 h2,p{
+        text-align: center;
+    }
+    .ano{
+          display:none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .ano{
+          display:none;
+    }
+}
+

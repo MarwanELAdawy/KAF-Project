@@ -1,0 +1,65 @@
+@font-face {
+    font-family: NeoSansArabic;
+    src: url(assets/fonts/neo-sans-arabic-regular/neo-sans-arabic-regular.ttf);
+}
+*{
+    font-family: 'NeoSansArabic';
+    cursor:url('../img/cursor.png'), default;
+}
+body{background-color: rgba(0, 0, 0, 0.7); }
+
+.pos{
+    position: absolute;
+    padding-top: 40px;
+    text-align: center;
+    float: left;
+    width: 1100px
+}
+.x{
+    height: 400px;
+    font-weight: bolder; font-size: 25px;
+}
+.lo{
+    background-color:white;
+    height: 600px;
+    border-radius: 45px;
+    border-style: none;
+}
+.bt{
+    border-radius: 30px;
+     height: 50px; width: 150px;
+    float: left;margin-left: -8px;
+    border-style: none;text-decoration: none;
+    position: relative;
+    color: black; font-weight: bold; font-size: 20px
+}
+.tex{
+    width: 235px; height: 40px;
+    border-radius: 40px;
+    background-color: beige;
+    border-style: none; float:left; 
+    margin: 10px; padding-left: 10px;
+   
+}
+.h{height: 700px;}
+.for{
+    text-decoration:none; color: rgba(0,0,0,.7); margin-left: 90px;
+    text-decoration-color: none
+}
+.bt-lo{background-color: rgba(36, 32, 56, 0.4 ); float: right; height: 40px;  font-size: 17px; color: rgb(38, 29, 29); margin-right: 10px}
+
+.bt1{ margin-left:-30px; z-index: 8; position: absolute; background-color: white; }
+.ic{ padding-left: -30px ;position: absolute; z-index: 15; color: rgba(232, 32, 32, 0.6)}
+.ic1{top: 15px; right: 30px;}
+.ic2{top: 65px; right: 30px;}
+.ic3{top: 115px; right: 30px;}
+.ic4{top: 165px; right: 30px;}
+.ic5{top: 215px; right: 30px;}
+#login{height: 300px; position: absolute; top:300px;  z-index:10 ; visibility: hidden}
+#signin{position: absolute; top: 280px; z-index: 10; visibility: visible; }
+img{background-size: auto;}
+.ic1:hover{color: rgb(12, 191, 164) }
+.ic2:hover{color: rgb(12, 191, 164) }
+.ic3:hover{color: rgb(12, 191, 164) }
+.ic4:hover{color: rgb(12, 191, 164) }
+.ic5:hover{color: rgb(12, 191, 164) }
